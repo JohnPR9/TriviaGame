@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Scuba Trivia</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div>
+      <header>
+        <div>
+          <h1>Totally Scuba Trivia</h1>
+        </div>
+      </header>
+      <div id=bg>
+        <p id="instruct">Welcome to Totally Scuba Trivia. You will be presented with a number of</p>
+        <p>trivia questions that you will have to answer before the timer expires. Please check only</p>
+        <p>one checkbox answer per question.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="time"></div>
+  <div id="minute"></div>
+  <div id="second"></div>
+
+  <p id="score"></p>
+
+  <div class="question" id="questions"></div>
+  <br>
+  
+
+  <div id="trivia">
+    <button id="start_button">Start Game</button>
+  </div>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
